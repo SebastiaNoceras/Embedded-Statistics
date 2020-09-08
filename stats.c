@@ -9,17 +9,18 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief In this file there is the implementation of the functions described 
+ * in the file stats.h and the main function
  *
- * <Add Extended Description Here>
+ * There are 7 functions, each function has only one task, these tasks are:
+ * find the  median, mean, maximum, minimum, sort, print statistics and print 
+ * array given an array of data.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Sebastià A. Noceras Anderson
+ * @date 08/09/2020
  *
  */
-
-
 
 #include <stdio.h>
 #include "stats.h"
@@ -40,4 +41,30 @@ void main() {
 
 }
 
-/* Add other Implementation File Code Here */
+void print_statistics(){
+
+}
+
+void print_array(unsigned char * ptr, unsigned int length){
+
+}
+
+unsigned char find_median(unsigned char * ptr, unsigned int length){
+
+}
+
+unsigned char find_mean(unsigned char * ptr, unsigned int length){
+
+}
+
+unsigned char find_maximum(unsigned char * ptr, unsigned int length){
+
+}
+
+unsigned char find_minimum(unsigned char * ptr, unsigned int length){
+
+}
+
+void sort_array(unsigned char * ptr, unsigned int lenght){
+
+}
