@@ -29,10 +29,13 @@
  * @brief Prints the statistics of an array including minimum, maximum, mean,
  * and median
  *
+ * @param * ptr: Pointer to a data set
+ * @param lenght: Number of items in data set
+ *
  * @return void 
  */
 
-void print_statistics();
+void print_statistics(unsigned char * ptr, unsigned int length);
 
 /**
  * @brief Given an array of data and a length, prints the array to the screen
